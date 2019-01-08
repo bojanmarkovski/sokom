@@ -1,0 +1,139 @@
+/*HOME PAGE BACKGROUND*/
+.home-container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/bg-home.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/*FONT AWSOME ICONS*/
+.home-container .font-awsome-icons{
+	display: flex;
+	justify-content: space-between;
+}
+.home-container i{
+	color: white;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+.font-awsome-icons .fa-facebook-f:hover{
+	background-color: #3b5998;
+}
+.font-awsome-icons .fa-instagram:hover{
+	background-color: #517fa4;
+}
+.font-awsome-icons .fa-twitter:hover{
+	background-color: #00bef6;
+}
+.font-awsome-icons .fa-search{
+	border: 1px solid white;
+}
+.font-awsome-icons .fa-search:hover{
+	background-color: #D63131;
+}
+
+/*BOTTOM HOME*/
+.home-container .bottom-container{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+	color: lightgray;
+}
+/*EVENTS*/
+/*FIRST EVENT*/
+.home-container .bottom-container .events-home-1{
+	height: 150px;
+	background-image: url(images/party-home-1.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+	cursor: pointer;
+}
+.home-container .bottom-container a{
+	color: lightgray;
+	text-decoration: none;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1,1,1,0.6);
+	transition: 0.3s;
+}
+.home-container .bottom-container h4{
+	margin-top: 0;
+	padding-top: 25px;
+	padding-left: 25px;
+	transition: 0.3s;
+}
+.home-container .bottom-container .events-home-1:hover .overlay{
+	background-color: rgba(1,1,1,0.0);
+}
+.home-container .bottom-container .events-home-1:hover h4{
+	opacity: 0;
+}
+
+/*SECOND EVENT*/
+.home-container .bottom-container .events-home-2{
+	height: 150px;
+	background-image: url(images/party-home-2.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+	cursor: pointer;
+}
+.home-container .bottom-container .events-home-2:hover .overlay{
+	background-color: rgba(1,1,1,0.0);
+}
+.home-container .bottom-container .events-home-2:hover h4{
+	opacity: 0;
+}
+
+
+.border-bottom-lgray{
+	font-size: 16px;
+}
+.home-container .bottom-container small{
+	padding-right: 15px;
+}
+/*STORY*/
+.home-bg-gray{
+	background-color: gray;
+}
+.home-bg-gray div{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	cursor: pointer;
+}
+.home-bg-gray div:hover{
+	background-color: darkgray;
+}
+.home-container .bottom-container .home-bg-gray div:hover .border-bottom-lgray{
+	border-bottom: 2px solid lightgray;
+}
+
+/*HOME BG RED*/
+.home-bg-red{
+	background-color: #D63131;
+}
+.home-bg-red div{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	cursor: pointer;
+}
+.home-bg-red div:hover{
+	background-color: darkgray;
+}
+.home-container .bottom-container .home-bg-red div:hover .border-bottom-lgray{
+	border-bottom: 2px solid lightgray;
+}
